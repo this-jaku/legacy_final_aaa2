@@ -1,0 +1,7 @@
+services:
+  site.controller:
+    class: App\Controller\SiteController
+    arguments:
+      - '@site'
+    tags:
+      - 'controller.service_arguments'

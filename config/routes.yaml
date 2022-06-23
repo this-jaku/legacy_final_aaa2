@@ -1,0 +1,9 @@
+site_save:
+    path:       /site/save
+    controller: site.controller::save
+    methods:    POST
+
+site_read:
+    path:       /site/get
+    controller: site.controller::get
+    methods:    GET
